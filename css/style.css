@@ -1,4 +1,154 @@
 body {
     margin: 0px;
     padding: 0px;
+    background-image: url(../img/wood_back.png);
+}
+
+.container {
+    font-family: sans-serif;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.header {
+    background-color: white;
+    height: 120px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.header_top {
+    height: 85px;
+}
+
+.logo {
+    width: 30%;
+    padding: 13px 15px;
+    float: left;
+}
+
+.logo_center {
+    width: 33%;
+    padding-top: 30px;
+    float: left;
+}
+
+.logo_right {
+    width: 33%;
+    float: right;
+    height: 70px;
+}
+
+.top_right {
+    color: #274e37;
+    padding-left: 185px;
+    padding-right: -42px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.top_right_anchr {
+    text-decoration: none;
+    color: #274e37;
+}
+
+.topul {
+    padding-left: 140px;
+    padding-top: -9px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: -13px;
+}
+
+li {
+    display: inline-flex;
+    color: #8c605e;
+}
+
+.list_anchr {
+    text-decoration: underline;
+    color: #8c605e;
+}
+
+.input {
+    margin-top: -10px;
+    padding-left: 110px;
+}
+
+.btn {
+    background-color: #8c605e;
+    color: white;
+    height: 25px;
+    font-size: 15px;
+    border: 1px solid #8c605e;
+}
+
+.search {
+    border: 1px solid lightgrey;
+    height: 25px;
+    width: 215px;
+}
+
+::placeholder {
+    color: black;
+    font-size: 15px;
+}
+
+.header_bottom {
+    height: 33px;
+    background-color: #8c605e;
+    border: 1px solid white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.menu {
+    margin-top: 9px;
+    font-weight: 600;
+}
+
+.menu li {
+    color: white;
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.verti {}
+
+.phone {
+    float: right;
+    font-size: 18px;
+}
+
+.banner {
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 500px;
+    margin-top: 15px;
+}
+
+.banner_right {
+    width: 20%;
+    float: left;
+    /* background-color: royalblue; */
+    height: 20px;
+}
+
+.banner_left {
+    width: 80%;
+    height: 100px;
+    float: left;
+    /* background-color: red; */
+}
+
+.main_banner {
+    width: 77%;
+    height: 70px;
 }
