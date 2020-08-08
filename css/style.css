@@ -128,9 +128,8 @@ a {
 
 .banner {
     background-color: white;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    height: 500px;
+    border-radius: 10px;
+    height: 700px;
     margin-top: 15px;
 }
 
@@ -138,17 +137,141 @@ a {
     width: 20%;
     float: left;
     /* background-color: royalblue; */
-    height: 20px;
+    /* height: 20px; */
 }
 
 .banner_left {
     width: 80%;
-    height: 100px;
+    /* height: 100px; */
     float: left;
     /* background-color: red; */
 }
 
 .main_banner {
     width: 77%;
-    height: 70px;
+    /* height: 70px; */
+    padding-top: 1px;
+    padding-left: 5px;
+}
+
+.banner_img {
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 129%;
+    height: 400px;
+    position: relative;
+}
+
+.bt_left {
+    background-color: #ffffff99;
+    position: absolute;
+    padding: 2px 10px;
+    bottom: -124px;
+    border-bottom-left-radius: 10px;
+}
+
+.arrow {
+    padding-bottom: 2px;
+}
+
+.bt_right {
+    background-color: #ffffff99;
+    position: absolute;
+    padding: 0px 15px;
+    bottom: -105px;
+    right: 105px;
+    width: 25%;
+    height: 130px;
+}
+
+.bt_right p {
+    font-size: 32px;
+    margin-top: 7px;
+    text-align: right;
+}
+
+.num {
+    color: #928c86;
+}
+
+.botm {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 600;
+}
+
+.right1 {
+    border: 1px solid #8c605e;
+    height: 270px;
+    background: #e8e8e8;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 93%;
+}
+
+.product {
+    background-color: #8c605e;
+    position: relative;
+    padding-left: 6px;
+    padding-top: 6px;
+    height: 20px;
+}
+
+.prod_txt {
+    margin-top: 0px;
+}
+
+.prod {
+    margin-left: 20px;
+    margin-bottom: -10px;
+    font-size: 15px;
+}
+
+.prod a {
+    color: black;
+}
+
+.dwn_img {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.right2 {
+    border: 1px solid #8c605e;
+    height: 188px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    background: no-repeat;
+    width: 93%;
+    background-image: url('../img/women.png');
+}
+
+.need {
+    background-color: #ffffff99;
+    position: relative;
+    height: 22px;
+    padding-left: 6px;
+    padding-top: 6px;
+}
+
+.call {
+    background-color: #ffffff99;
+    position: relative;
+    height: 23px;
+    margin-top: 133px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.call_num {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.number {
+    font-size: 18px;
+    font-weight: 600;
 }
