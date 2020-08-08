@@ -129,7 +129,7 @@ a {
 .banner {
     background-color: white;
     border-radius: 10px;
-    height: 900px;
+    height: 920px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -406,4 +406,30 @@ a {
 
 .prod_side a {
     color: black;
+}
+
+.foot {
+    float: left;
+    width: 16%;
+}
+
+.foot_1 {
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+.foot_6 {
+    font-size: 15px;
+    text-align: right;
+    padding-top: 40px;
+}
+
+h5 {
+    color: #8c605e;
+    text-align: center;
+}
+
+.footer_text {
+    font-size: 12px;
+    padding-left: 53px;
 }
