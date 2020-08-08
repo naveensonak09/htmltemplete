@@ -129,8 +129,9 @@ a {
 .banner {
     background-color: white;
     border-radius: 10px;
-    height: 700px;
+    height: 900px;
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .banner_right {
@@ -166,7 +167,7 @@ a {
     background-color: #ffffff99;
     position: absolute;
     padding: 2px 10px;
-    bottom: -124px;
+    bottom: -86px;
     border-bottom-left-radius: 10px;
 }
 
@@ -178,7 +179,7 @@ a {
     background-color: #ffffff99;
     position: absolute;
     padding: 0px 15px;
-    bottom: -105px;
+    bottom: -66px;
     right: 105px;
     width: 25%;
     height: 130px;
@@ -261,7 +262,7 @@ a {
     background-color: #ffffff99;
     position: relative;
     height: 23px;
-    margin-top: 133px;
+    margin-top: 132px;
     padding-left: 10px;
     padding-top: 5px;
 }
@@ -274,4 +275,135 @@ a {
 .number {
     font-size: 18px;
     font-weight: 600;
+}
+
+.right3 {
+    border: 1px solid #8c605e;
+    height: 300px;
+    background: #e8e8e8;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 93%;
+}
+
+.get {
+    margin-left: 10px;
+    text-align: center;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.check {
+    margin-left: 28px;
+    font-size: 15px;
+}
+
+.addr {
+    margin-top: 20px;
+    margin-left: 17px;
+}
+
+.email {
+    margin-top: 5px;
+}
+
+.sign_btn {
+    background-color: #8c605e;
+    color: white;
+    margin-top: 5px;
+    font-size: 16px;
+    margin-left: 45px;
+    border: 1px solid #8c605e;
+}
+
+.two_img {
+    margin-top: 18px;
+    margin-left: 40px;
+}
+
+.bot_img {
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+
+.main_body {
+    margin-top: 7px;
+}
+
+.content {
+    width: 70%;
+    float: left;
+    height: 400px;
+}
+
+.content_head {
+    margin-left: 50px;
+    margin-top: -10px;
+}
+
+.para_head {
+    font-size: 24px;
+    color: #274e37;
+    font-family: sans-serif;
+}
+
+.points {
+    margin-left: 25px;
+    margin-top: -25px;
+}
+
+.points p {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.side_right {
+    width: 30%;
+    float: left;
+    height: 400px;
+    margin-top: -10px;
+}
+
+.side_right1 {
+    border: 1px solid #8c605e;
+    height: 200px;
+    background: #e8e8e8;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 10px;
+    width: 80%;
+}
+
+.side_right2 {
+    border: 1px solid #8c605e;
+    height: 120px;
+    background: #e8e8e8;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 10px;
+    width: 80%;
+}
+
+.side_post {}
+
+.para_side {
+    font-size: 14px;
+    text-align: center;
+}
+
+.para_side a {
+    color: #274e37;
+    text-decoration: underline;
+}
+
+.prod_side {
+    margin-left: 20px;
+    padding-bottom: 5px;
+    margin-bottom: -12px;
+    font-size: 12px;
+}
+
+.prod_side a {
+    color: black;
 }
