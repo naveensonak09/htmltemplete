@@ -12,7 +12,7 @@ body {
 
 .header {
     background-color: white;
-    height: 120px;
+    height: auto;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
 }
@@ -53,7 +53,7 @@ body {
 }
 
 .topul {
-    padding-left: 140px;
+    padding-left: 115px;
     padding-top: -9px;
     font-weight: 600;
     font-size: 14px;
@@ -63,6 +63,7 @@ body {
 li {
     display: inline-flex;
     color: #8c605e;
+    padding-left: 5px;
 }
 
 .list_anchr {
@@ -79,8 +80,11 @@ li {
     background-color: #8c605e;
     color: white;
     height: 25px;
+    width: 33px;
+    padding-left: 4px;
     font-size: 15px;
     border: 1px solid #8c605e;
+    padding-right: 4px;
 }
 
 .search {
@@ -112,6 +116,7 @@ li {
     display: inline;
     padding-left: 10px;
     padding-right: 10px;
+    border-right: 1px solid;
 }
 
 a {
@@ -119,7 +124,8 @@ a {
     color: white;
 }
 
-.verti {}
+
+/* .verti {} */
 
 .phone {
     float: right;
@@ -167,7 +173,7 @@ a {
     background-color: #ffffff99;
     position: absolute;
     padding: 2px 10px;
-    bottom: -86px;
+    top: 514px;
     border-bottom-left-radius: 10px;
 }
 
@@ -179,7 +185,7 @@ a {
     background-color: #ffffff99;
     position: absolute;
     padding: 0px 15px;
-    bottom: -66px;
+    top: 384px;
     right: 105px;
     width: 25%;
     height: 130px;
@@ -195,10 +201,18 @@ a {
     color: #928c86;
 }
 
+.num a {
+    color: #928c86;
+}
+
 .botm {
     padding-left: 10px;
     padding-right: 10px;
     font-weight: 600;
+}
+
+.botm_anchr a {
+    color: black;
 }
 
 .right1 {
@@ -265,6 +279,10 @@ a {
     margin-top: 132px;
     padding-left: 10px;
     padding-top: 5px;
+}
+
+.call a {
+    color: black;
 }
 
 .call_num {
@@ -404,7 +422,8 @@ a {
     width: 80%;
 }
 
-.side_post {}
+
+/* .side_post {} */
 
 .para_side {
     font-size: 14px;
@@ -506,4 +525,113 @@ h5 a {
 }
 
 
-/* padding-top: 50px; */
+/* Media Query for Mobile view */
+
+@media (max-width: 600px) {
+    body {
+        background-color: red;
+        margin: 0px;
+        padding: 0px;
+    }
+    .container {
+        font-family: sans-serif;
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+    .header {
+        background-color: white;
+        height: auto;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    .header_top {
+        height: 230px;
+    }
+    .logo {
+        width: 30%;
+        padding: 13px 75px;
+        float: left;
+    }
+    .logo_center {
+        width: 33%;
+        padding-top: 95px;
+        float: left;
+        margin-left: -200px;
+    }
+    .logo_right {
+        width: 33%;
+        float: right;
+        padding-top: 35px;
+        height: 70px;
+    }
+    .top_right {
+        color: #274e37;
+        font-size: 14px;
+        margin-left: -290px;
+        font-weight: 600;
+        padding-bottom: 5px;
+        padding-top: 10px;
+    }
+    .top_right_anchr {
+        text-decoration: none;
+        color: #274e37;
+    }
+    .topul {
+        display: inline-flex;
+        font-weight: 600;
+        font-size: 14px;
+        margin-left: -288px;
+    }
+    li {
+        display: inline-flex;
+        color: #8c605e;
+        padding-left: 5px;
+    }
+    .list_anchr {
+        text-decoration: underline;
+        color: #8c605e;
+    }
+    .input {
+        margin-top: -10px;
+        padding-left: 110px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+    .btn {
+        background-color: #8c605e;
+        color: white;
+        height: 25px;
+        width: 33px;
+        padding-left: 4px;
+        font-size: 15px;
+        border: 1px solid #8c605e;
+        padding-right: 4px;
+    }
+    .search {
+        border: 1px solid lightgrey;
+        height: 25px;
+        width: 215px;
+        margin-left: -295px;
+    }
+     ::placeholder {
+        color: black;
+        font-size: 15px;
+    }
+    .header_bottom {
+        height: 43px;
+    }
+    .menu {
+        margin-top: 9px;
+        font-weight: 600;
+        display: none;
+    }
+}
+
+
+/* Media Query for Tablets*/
+
+@media (min-width: 600px) and (max-width: 768px) {
+    body {
+        background-color: yellow;
+    }
+}
