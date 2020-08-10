@@ -129,7 +129,7 @@ a {
 .banner {
     background-color: white;
     border-radius: 10px;
-    height: 920px;
+    height: 940px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -414,22 +414,77 @@ a {
 }
 
 .foot_1 {
-    padding-left: 10px;
-    padding-top: 30px;
+    padding-left: 25px;
+    padding-top: 53px;
 }
 
 .foot_6 {
     font-size: 15px;
     text-align: right;
-    padding-top: 40px;
+    margin-top: -45px;
+}
+
+.foot_6 a {
+    color: black;
 }
 
 h5 {
     color: #8c605e;
-    text-align: center;
+    padding-left: 60px;
+    /* text-align: center; */
+}
+
+h5 a {
+    color: #8c605e;
+    /* padding-left: 60px; */
+    /* text-align: center; */
 }
 
 .footer_text {
     font-size: 12px;
-    padding-left: 53px;
+    padding-left: 60px;
+    margin-top: -7px;
 }
+
+.footer_text {
+    font-size: 12px;
+    padding-left: 60px;
+    margin-top: -7px;
+}
+
+.footer_text a {
+    color: black;
+}
+
+.footline {
+    bottom: 113px;
+    width: 1px;
+    position: relative;
+    left: 35px;
+    height: 110px;
+}
+
+.footline3 {
+    bottom: 94px;
+    width: 1px;
+    position: relative;
+    left: 35px;
+    height: 110px;
+}
+
+.footline4 {
+    bottom: 75px;
+    position: relative;
+    left: 35px;
+    height: 110px;
+}
+
+.footline5 {
+    bottom: -67px;
+    position: relative;
+    left: -20px;
+    height: 110px;
+}
+
+
+/* padding-top: 50px; */
