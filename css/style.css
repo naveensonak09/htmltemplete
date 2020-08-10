@@ -288,10 +288,10 @@ a {
 }
 
 .get {
-    margin-left: 10px;
+    margin-left: 20px;
     text-align: center;
     font-size: 15px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .check {
@@ -301,7 +301,12 @@ a {
 
 .addr {
     margin-top: 20px;
-    margin-left: 17px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.wide {
+    width: 155px;
 }
 
 .email {
@@ -313,7 +318,7 @@ a {
     color: white;
     margin-top: 5px;
     font-size: 16px;
-    margin-left: 45px;
+    margin-left: 40px;
     border: 1px solid #8c605e;
 }
 
@@ -348,14 +353,28 @@ a {
     font-family: sans-serif;
 }
 
+.bullet {
+    width: 2%;
+    float: left;
+    margin-top: 14px;
+}
+
+.para {
+    width: 98%;
+    float: left;
+    margin-bottom: -11px;
+}
+
 .points {
     margin-left: 25px;
     margin-top: -25px;
+    font-size: 15px;
 }
 
 .points p {
     display: inline-block;
     padding-left: 15px;
+    letter-spacing: 0.2;
 }
 
 .side_right {
