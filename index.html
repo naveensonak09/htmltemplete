@@ -4,9 +4,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 </head>
@@ -41,6 +43,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="header_bottom topnav" id="myTopnav">
                 <a href="#">Home</a>
                 <a href="#">About Us </a>
@@ -48,17 +51,34 @@
                 <a href="#">Sustainability </a>
                 <a href="#">Contact Us </a>
                 <a href="#" class="phone"> Ph: 1-888-800-4372</a>
-                <a href="javascript:void(0);" style="font-size:30px;" class="icon" onclick="myFunction()">&#9776;</a>
+
+
+                <!-- <a href="javascript:void(0);" style="font-size:30px;" class="icon" onclick="myFunction()">&#9776;</a> -->
+            </div>
+            <button style="font-size:30px;" class="icon desktop">&#9776;</button>
+            <div class="header_bottom mobnav" style="display: none;" id="myTopnav">
+                <a href="#">Home</a>
+                <a href="#">About Us </a>
+                <a href="#">Quality Assurance </a>
+                <a href="#">Sustainability </a>
+                <a href="#">Contact Us </a>
+                <a href="#" class="phone"> Ph: 1-888-800-4372</a>
             </div>
             <script>
-                function myFunction() {
-                    var x = document.getElementById("myTopnav");
-                    if (x.className === "topnav") {
-                        x.className += " responsive";
-                    } else {
-                        x.className = "topnav";
-                    }
-                }
+                // function myFunction() {
+                //     var x = document.getElementById("myTopnav");
+                //     if (x.className == "topnav") {
+                //         x.className += " responsive";
+                //     } else {
+                //         x.className = "topnav";
+                //     }
+                // }
+
+                $(document).ready(function() {
+                    $('button').click(function() {
+                        $('.mobnav').toggle("slide");
+                    });
+                });
             </script>
         </div>
         <div class="banner">
