@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
@@ -15,7 +16,7 @@
         <div class="header">
             <div class="header_top">
                 <div class="logo">
-                    <a href="#"><img src="img/logo.png"></a>
+                    <a href="#"><img class="logo_width" src="img/logo.png"></a>
                 </div>
                 <div class="logo_center">
                     <a href="#"><img class="logo_width" src="img/ingrad.png"></a>
@@ -40,43 +41,25 @@
                     </div>
                 </div>
             </div>
-            <div class="header_bottom">
-                <ul class="menu">
-                    <a href="#">
-                        <li style="margin-left: -25px;">Home</li>
-                    </a>
-                    <a class="verti">
-                        <!-- <li><img src="img/vertimenu.png"></li> -->
-                    </a>
-                    <a href="#">
-                        <li>About Us</li>
-                    </a>
-                    <a class="verti">
-                        <!-- <li><img src="img/vertimenu.png"></li> -->
-                    </a>
-                    <a href="#">
-                        <li>Quality Assurance</li>
-                    </a>
-                    <a class="verti">
-                        <!-- <li><img src="img/vertimenu.png"></li> -->
-                    </a>
-                    <a href="#">
-                        <li>Sustainability</li>
-                    </a>
-                    <a class="verti">
-                        <!-- <li><img src="img/vertimenu.png"></li> -->
-                    </a>
-                    <a href="#">
-                        <li>Contact Us</li>
-                    </a>
-                    <a class="verti">
-                        <!-- <li><img src="img/vertimenu.png"></li> -->
-                    </a>
-                    <a href="#">
-                        <li class="phone">Ph: 1-888-800-4372</li>
-                    </a>
-                </ul>
+            <div class="header_bottom topnav" id="myTopnav">
+                <a href="#">Home</a>
+                <a href="#">About Us </a>
+                <a href="#">Quality Assurance </a>
+                <a href="#">Sustainability </a>
+                <a href="#">Contact Us </a>
+                <a href="#" class="phone"> Ph: 1-888-800-4372</a>
+                <a href="javascript:void(0);" style="font-size:30px;" class="icon" onclick="myFunction()">&#9776;</a>
             </div>
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("myTopnav");
+                    if (x.className === "topnav") {
+                        x.className += " responsive";
+                    } else {
+                        x.className = "topnav";
+                    }
+                }
+            </script>
         </div>
         <div class="banner">
             <div class="row banner_right">
@@ -229,7 +212,7 @@
             </div>
             <div class="row footer">
                 <div class="col-2 foot_1 foot">
-                    <a href="#"><img src="img/footer_logo.png"></a>
+                    <a href="#"><img class="logo_width" src="img/footer_logo.png"></a>
                 </div>
                 <div class="col-2 foot_2 foot">
                     <h5><a href="#">PRODUCTS</a></h5>
