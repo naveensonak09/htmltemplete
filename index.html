@@ -4,28 +4,274 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 </head>
 
 <body>
-</body>
-<div class="container">
-    <div>
-        header section
-    </div>
-    <div>
-        banner
-    </div>
-    <div>
-        body
-    </div>
-    <div>
-        footer
-    </div>
+    <div class="container">
+        <div class="header">
+            <div class="header_top">
+                <div class="logo">
+                    <a href="#"><img class="logo_width" src="img/logo.png"></a>
+                </div>
+                <div class="logo_center">
+                    <a href="#"><img class="logo_width" src="img/ingrad.png"></a>
+                </div>
+                <div class="logo_right">
+                    <p class="top_right"><a class="top_right_anchr" href="#">Starwest Sites</a></p>
+                    <ul class="topul">
+                        <a class="list_anchr" href="#">
+                            <li>Ingredients</li>
+                        </a>
+                        <li> |</li>
+                        <a class="list_anchr" href="#">
+                            <li>Retail</li>
+                        </a>
+                        <li> |</li>
+                        <a class="list_anchr" href="#">
+                            <li>Wholesale</li>
+                        </a>
+                    </ul>
+                    <div class="input">
+                        <input type="text" class="search" placeholder="Search Products"><button class="btn">GO</button>
+                    </div>
+                </div>
+            </div>
 
-</div>
+            <div class="header_bottom topnav" id="myTopnav">
+                <a href="#">Home</a>
+                <a href="#">About Us </a>
+                <a href="#">Quality Assurance </a>
+                <a href="#">Sustainability </a>
+                <a href="#">Contact Us </a>
+                <a href="#" class="phone"> Ph: 1-888-800-4372</a>
+
+
+                <!-- <a href="javascript:void(0);" style="font-size:30px;" class="icon" onclick="myFunction()">&#9776;</a> -->
+            </div>
+            <button style="font-size:30px;" class="icon desktop">&#9776;</button>
+            <div class="header_bottom mobnav" style="display: none;" id="myTopnav">
+                <a href="#">Home</a>
+                <a href="#">About Us </a>
+                <a href="#">Quality Assurance </a>
+                <a href="#">Sustainability </a>
+                <a href="#">Contact Us </a>
+                <a href="#" class="phone"> Ph: 1-888-800-4372</a>
+            </div>
+            <script>
+                // function myFunction() {
+                //     var x = document.getElementById("myTopnav");
+                //     if (x.className == "topnav") {
+                //         x.className += " responsive";
+                //     } else {
+                //         x.className = "topnav";
+                //     }
+                // }
+
+                $(document).ready(function() {
+                    $('button').click(function() {
+                        $('.mobnav').toggle("slide");
+                    });
+                });
+            </script>
+        </div>
+        <div class="banner">
+            <div class="row banner_right">
+                <div class="col-3 right1">
+                    <div class="product"><img src="img/p.png"><img src="img/roduct.png"></div>
+                    <div class="prod_txt">
+                        <p class="prod"><a href="#">-Botanicals</a></p>
+                        <p class="prod"><a href="#">-Organic Botanicals</a></p>
+                        <p class="prod"><a href="#">-Spices</a></p>
+                        <p class="prod"><a href="#">-Organic Spices</a></p>
+                        <p class="prod"><a href="#">-Spice Blends</a></p>
+                        <p class="prod"><a href="#">-Teas</a></p>
+                        <p class="prod"><a href="#">-Other Products</a></p>
+                    </div>
+                    <div class="dwn_img">
+                        <a href="#"><img src="img/dwnpdf.png"></a>
+                    </div>
+                </div>
+                <div class="col-3 right2">
+                    <div class="need">
+                        <img src="img/n.png"><img src="img/eed.png">&nbsp;&nbsp;
+                        <img src="img/a.png"><img src="img/ssitnce.png">
+                    </div>
+                    <div class="call">
+                        <a href="#"><span class="call_num">CALL: </span><span class="number">1-888-800-4372</span></a>
+                    </div>
+                </div>
+                <div class="col-3 right3">
+                    <div class="product">
+                        <img src="img/g.png"><img src="img/et.png">
+                        <img src="img/u.png"><img src="img/dates.png">
+                    </div>
+                    <p class="get">Get automatic updates on our certifications</p>
+                    <div class="check">
+                        <input class="space_chk" type="checkbox"><label>Organic Updates</label><br>
+                        <input class="mob_chk" type="checkbox"><label>Kosher Updates</label>
+                    </div>
+                    <div class="addr">
+                        <input class="wide" type="text" placeholder="Name">
+                        <input type="text" class="email wide" placeholder="Email Address">
+                        <input type="button" class="sign_btn" value="SIGN UP">
+                    </div>
+                    <div class="two_img">
+                        <img src="img/goser.png">
+                        <img class="bot_img" src="img/koi.png">
+                    </div>
+
+                </div>
+            </div>
+            <div class="row banner_left">
+                <div class="col-9 main_banner">
+                    <img class="banner_img" src="img/banner.png">
+                    <div class="bt_left">
+                        <img class="arrow" src="img/la.png">
+                        <span class="num botm"><a href="#">1</a></span>
+                        <span class="botm botm_anchr"><a href="#">2</a></span>
+                        <span class="num botm"><a href="#">3</a></span>
+                        <img class="arrow" src="img/ra.png">
+                    </div>
+                    <div class="bt_right">
+                        <p> Premium Ingredient Supplier of <b>Botanicals Herbs</b> and <b>Spices</b></p>
+                    </div>
+                </div>
+                <div class="main_body">
+                    <div class="content">
+                        <div class="content_head">
+                            <p class="para_head">Starwest Botanicals, Inc</p>
+                        </div>
+                        <div class="points">
+                            <div class="bullet">
+                                <img src="img/bullet.png">
+                            </div>
+                            <div class="para">
+                                <p>Manufecturer & processor, with an emphasis on certified organic ingredients. </p>
+                            </div>
+                        </div>
+                        <div class="points">
+                            <div class="bullet">
+                                <img src="img/bullet.png">
+                            </div>
+                            <div class="para">
+                                <p>Supplies quantities from 25 pounds to full container. </p>
+                            </div>
+                        </div>
+                        <div class="points">
+                            <div class="bullet">
+                                <img src="img/bullet.png">
+                            </div>
+                            <div class="para">
+                                <p>Complete milling, blending & formulating services </p>
+                            </div>
+                        </div>
+                        <div class="points">
+                            <div class="bullet">
+                                <img src="img/bullet.png">
+                            </div>
+                            <div class="para">
+                                <p>Modern In-house Quality Control loboratory, providing efficient microbiology, heavy metal & identity testing.</p>
+                            </div>
+                        </div>
+                        <div class="points">
+                            <div class="bullet">
+                                <img src="img/bullet.png">
+                            </div>
+                            <div class="para">
+                                <p>cGMP- & FDA-complaint manufacturing protocols are followed. </p>
+                            </div>
+                        </div>
+                        <div class="points">
+                            <div class="bullet">
+                                <img src="img/bullet.png">
+                            </div>
+                            <div class="para">
+                                <p>Specifications sheets, Certificates of Analysis, Material Safety Data Sheets & other documents are provided. </p>
+                            </div>
+                        </div>
+                        <div class="points">
+                            <div class="bullet">
+                                <img src="img/bullet.png">
+                            </div>
+                            <div class="para">
+                                <p>82,000 sq. ft. warehouse enables us to maintain a sizeable product inventory & maintain adequate stock levels. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row side_right">
+                        <div class="col-6 side_right1">
+                            <div class="product">
+                                <img src="img/l.png"><img src="img/latest.png">
+                                <img src="img/ne.png"><img src="img/ews.png">
+                            </div>
+                            <div class="side_post">
+                                <p class="para_side">And thus have these naked Nantucketers, these sea hermits, issuing from blah... <a href="#">Read more</a></p>
+                                <p class="para_side">And thus have these naked Nantucketers, these sea hermits, issuing from blah... <a href="#">Read more</a></p>
+                            </div>
+                        </div>
+                        <div class="col-3 side_right2">
+                            <div class="product">
+                                <img src="img/c.png"><img src="img/erti.png">
+                            </div>
+                            <div class="prod_txt">
+                                <p class="prod_side"><a href="#">- 2009 AIB Audit Report</a></p>
+                                <p class="prod_side"><a href="#">- Organic System Plan</a></p>
+                                <p class="prod_side"><a href="#">- Organic Certificate of Compliance</a></p>
+                                <p class="prod_side"><a href="#">- Kosher Certificate</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row footer">
+                <div class="col-2 foot_1 foot">
+                    <a href="#"><img class="logo_width" src="img/footer_logo.png"></a>
+                </div>
+                <div class="col-2 foot_2 foot">
+                    <h5><a href="#">PRODUCTS</a></h5>
+                    <p class="footer_text"><a href="#">Botanicals</a></p>
+                    <p class="footer_text"><a href="#">Organic Botanicals</a></p>
+                    <p class="footer_text"><a href="#">Spices</a></p>
+                    <p class="footer_text"><a href="#">Organic Spices</a></p>
+                    <img class="footline" src="img/footline.png">
+                </div>
+                <div class="col-2 foot_3 foot">
+                    <h5><a href="#">INFO</a></h5>
+                    <p class="footer_text"><a href="#">About Us</a></p>
+                    <p class="footer_text"><a href="#">Contact Us</a></p>
+                    <p class="footer_text"><a href="#">Certificates</a></p>
+                    <p class="footer_text"><a href="#">Services</a></p>
+                    <img class="footline" src="img/footline.png">
+                </div>
+                <div class="col-2 foot_4 foot">
+                    <h5><a href="#">STARWEST SITES</a></h5>
+                    <p class="footer_text"><a href="#">Ingredients</a></p>
+                    <p class="footer_text"><a href="#">Retail</a></p>
+                    <p class="footer_text"><a href="#">Wholesale</a></p>
+                    <img class="footline3" src="img/footline.png">
+                </div>
+                <div class="col-2 foot_5 foot">
+                    <h5><a href="#">Links</a></h5>
+                    <p class="footer_text"><a href="#">Disclaimer</a></p>
+                    <p class="footer_text"><a href="#">Privacy</a></p>
+                    <img class="footline4" src="img/footline.png">
+                </div>
+                <div class="col-2 foot_6 foot">
+                    <img class="footline5" src="img/footline.png">
+
+                    <a href="#">2010 StarwestHerb.com All Rights Reserved.</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
 
 </html>
